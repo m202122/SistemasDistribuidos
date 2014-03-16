@@ -1,0 +1,9 @@
+1 - Descompactar thrift-0.9.1.tar.gz, entrar no diretório e intalar:
+	1.1 - ./configure
+	1.2 - make
+	1.3 - sudo make install
+2 - Entrar em /thrift-0.9.1/lib/py/
+	2.1 - python setup.py install
+3 - Criar projeto java no Eclipse, copiar as pastas 'Arquivos' e 'ThriftGen' que estão dentro de 'ServidorJava/src'. Dentro do Eclipse, no projeto criado, clique com o botão direito em src e depois vá em colar. Vá na opção "Java Build Path" dentro do eclipse, aba Libraries e Add External JARs: adicione todos os arquivos que estão dentro da pasta 'Servidor Java/lib'.
+4 - Entrar na pasta 'Cliente pyhton/gen-py' e executar:
+	4.1 - python Client.py

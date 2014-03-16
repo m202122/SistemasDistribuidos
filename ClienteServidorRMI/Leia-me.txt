@@ -1,0 +1,13 @@
+Neste arquivo contém a versão usando rmi da aplicação agenda.
+
+Para executar o programa faça:
+
+1 - compile: execute compile.bat no windows ou ./compile.sh no linux
+2 - inicie sevidor: execute runserver.bat ou ./runserver.sh
+3 - inicie client em um ou vários terminais: runclient.bat ou ./runclient.sh
+
+OBS: caso tenha problemas para compilar ou rodar no windows,
+			verifique se as variaveis de ambiente estão configuradas.
+	 caso tenha problemas para compilar ou rodar no linux,
+			verifique as permissões, rode chmod +x <nome script>.sh antes de executar os scripts
+	 caso tenha erros de porta já usada no rmi. Mate o processo rmiregistry e execute novamente.
