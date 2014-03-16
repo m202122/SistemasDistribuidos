@@ -1,4 +1,3 @@
-namespace cpp tutorial
 namespace java tutorial
 namespace py tutorial
 
